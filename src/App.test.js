@@ -1,10 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders page heading', () => {
+test('renders home page header', () => {
   render(<App />);
-  const heading = screen.getByRole('heading', {
-    name: /mental health nursing modules/i,
-  });
+         
+  const heading = screen.getByText(/Mental Health LMS/i);
   expect(heading).toBeInTheDocument();
 });

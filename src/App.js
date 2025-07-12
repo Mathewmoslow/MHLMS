@@ -9,6 +9,7 @@ import QuizPage from './pages/QuizPage';
 import Results from './pages/Results';
 import Progress from './pages/Progress';
 import FinalExam from './pages/FinalExam';
+import NotFound from './pages/NotFound';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path="/results/:moduleId" element={<Results />} />
               <Route path="/progress" element={<Progress />} />
               <Route path="/final-exam" element={<FinalExam />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
         </div>
