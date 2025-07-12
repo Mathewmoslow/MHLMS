@@ -1,0 +1,680 @@
+import React, { useState, useEffect, createContext, useContext } from 'react';
+import { ChevronRight, CheckCircle, Lock, BookOpen, Brain, ClipboardList, Trophy, FileText, Menu, X } from 'lucide-react';
+
+// Context for managing learning progress
+const LearningContext = createContext();
+
+// Main LMS Component
+const MentalHealthLMS = () => {
+  const [modules, setModules] = useState([]);
+  const [currentModule, setCurrentModule] = useState(null);
+  const [progress, setProgress] = useState({});
+  const [showDashboard, setShowDashboard] = useState(true);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Load all module JSON files
+    const loadModules = async () => {
+      try {
+        // In production, load from your data folder
+        // For CodeSandbox, you'll place JSON files in public/data/
+        const modulePromises = [];
+        for (let i = 1; i <= 14; i++) {
+          modulePromises.push(
+            fetch(`/data/module_${i}.json`)
+              .then(res => res.json())
+              .catch(() => null)
+          );
+        }
+        
+        const loadedModules = await Promise.all(modulePromises);
+        const validModules = loadedModules.filter(m => m !== null);
+        
+        // For demo, use mock data if no files found
+        if (validModules.length === 0) {
+          setModules(generateMockModules());
+        } else {
+          setModules(validModules);
+        }
+      } catch (error) {
+        console.error('Error loading modules:', error);
+        setModules(generateMockModules());
+      }
+      setLoading(false);
+    };
+
+    loadModules();
+  }, []);
+
+  const generateMockModules = () => {
+    // Mock data structure based on your JSON
+    return [
+      {
+        module_number: 1,
+        title: "The Therapeutic Relationship and Communication",
+        line_number: 1,
+        sections: [
+          { title: "Learning Objectives:", type: "objectives", content: [] },
+          { title: "Key Terms:", type: "key_terms", content: [] }
+        ],
+        subsections: [
+          { title: "Therapeutic vs Social Relationships", start_line: 10, end_line: 50 },
+          { title: "Phases of Nurse-Client Relationship", start_line: 51, end_line: 100 },
+          { title: "Transference and Countertransference", start_line: 101, end_line: 150 }
+        ],
+        brackets: []
+      },
+      {
+        module_number: 2,
+        title: "Nursing Process and Mental Status Examination",
+        line_number: 200,
+        sections: [
+          { title: "Learning Objectives:", type: "objectives", content: [] },
+          { title: "Key Terms:", type: "key_terms", content: [] }
+        ],
+        subsections: [
+          { title: "Mental Status Examination Components", start_line: 210, end_line: 300 },
+          { title: "Columbia-Suicide Severity Rating Scale", start_line: 301, end_line: 400 },
+          { title: "CIWA-Ar Assessment", start_line: 401, end_line: 500 }
+        ],
+        brackets: []
+      }
+    ];
+  };
+
+  return (
+    <LearningContext.Provider value={{ progress, setProgress, modules }}>
+      <div className="min-h-screen bg-gray-50">
+        <Header />
+        {loading ? (
+          <div className="flex items-center justify-center h-screen">
+            <div className="text-xl">Loading modules...</div>
+          </div>
+        ) : showDashboard ? (
+          <Dashboard 
+            modules={modules}
+            onSelectModule={(module) => {
+              setCurrentModule(module);
+              setShowDashboard(false);
+            }}
+          />
+        ) : (
+          <ModuleViewer
+            module={currentModule}
+            onBack={() => setShowDashboard(true)}
+          />
+        )}
+      </div>
+    </LearningContext.Provider>
+  );
+};
+
+// Header Component
+const Header = () => {
+  return (
+    <header className="bg-white shadow-sm border-b">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          <div className="flex items-center">
+            <Brain className="h-8 w-8 text-blue-600 mr-3" />
+            <h1 className="text-xl font-bold text-gray-900">
+              Mental Health Nursing LMS
+            </h1>
+          </div>
+          <div className="text-sm text-gray-600">
+            Source: 678-page Document
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+// Dashboard Component
+const Dashboard = ({ modules, onSelectModule }) => {
+  const { progress } = useContext(LearningContext);
+  
+  const calculateProgress = (moduleNumber) => {
+    const moduleProgress = progress[`module_${moduleNumber}`];
+    return moduleProgress?.completed ? 100 : 0;
+  };
+
+  const overallProgress = modules.length > 0 
+    ? (modules.filter(m => progress[`module_${m.module_number}`]?.completed).length / modules.length) * 100
+    : 0;
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Progress Overview */}
+      <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+        <h2 className="text-2xl font-bold mb-4">Your Progress</h2>
+        <div className="mb-4">
+          <div className="flex justify-between text-sm mb-2">
+            <span>Overall Completion</span>
+            <span>{Math.round(overallProgress)}%</span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-3">
+            <div 
+              className="bg-blue-600 h-3 rounded-full transition-all duration-500"
+              style={{ width: `${overallProgress}%` }}
+            />
+          </div>
+        </div>
+        <p className="text-gray-600">
+          {modules.filter(m => progress[`module_${m.module_number}`]?.completed).length} of {modules.length} modules completed
+        </p>
+      </div>
+
+      {/* Modules Grid */}
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {modules.map((module) => (
+          <ModuleCard
+            key={module.module_number}
+            module={module}
+            progress={calculateProgress(module.module_number)}
+            onClick={() => onSelectModule(module)}
+          />
+        ))}
+      </div>
+
+      {/* Final Exam */}
+      <div className="mt-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg p-8 text-white">
+        <div className="flex items-center justify-between">
+          <div>
+            <h3 className="text-2xl font-bold mb-2">
+              Final Comprehensive Exam
+            </h3>
+            <p className="opacity-90">
+              Complete all 14 modules to unlock the 150-question comprehensive exam
+            </p>
+          </div>
+          <button 
+            className={`px-6 py-3 rounded-lg font-semibold transition-all ${
+              overallProgress === 100 
+                ? 'bg-white text-blue-600 hover:bg-gray-100' 
+                : 'bg-white/20 text-white cursor-not-allowed'
+            }`}
+            disabled={overallProgress < 100}
+          >
+            {overallProgress === 100 ? (
+              <>Start Exam</>
+            ) : (
+              <>
+                <Lock className="inline-block w-4 h-4 mr-2" />
+                Locked
+              </>
+            )}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Module Card Component
+const ModuleCard = ({ module, progress, onClick }) => {
+  const subsectionCount = module.subsections?.length || 0;
+  const keyTermsCount = module.sections?.find(s => s.type === 'key_terms')?.content?.length || 0;
+
+  return (
+    <div 
+      onClick={onClick}
+      className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer overflow-hidden"
+    >
+      <div className="p-6">
+        <div className="flex items-start justify-between mb-4">
+          <span className="text-sm font-semibold text-blue-600">
+            Module {module.module_number}
+          </span>
+          {progress === 100 && (
+            <CheckCircle className="w-5 h-5 text-green-600" />
+          )}
+        </div>
+        
+        <h3 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2">
+          {module.title}
+        </h3>
+        
+        <div className="space-y-2 text-sm text-gray-600">
+          <div className="flex items-center">
+            <BookOpen className="w-4 h-4 mr-2" />
+            <span>{subsectionCount} Topics</span>
+          </div>
+          <div className="flex items-center">
+            <FileText className="w-4 h-4 mr-2" />
+            <span>{keyTermsCount} Key Terms</span>
+          </div>
+        </div>
+      </div>
+      
+      <div className="px-6 py-3 bg-gray-50 border-t">
+        <div className="flex items-center justify-between">
+          <span className="text-sm text-gray-600">Progress</span>
+          <div className="flex items-center">
+            <div className="w-24 bg-gray-200 rounded-full h-2 mr-2">
+              <div 
+                className="bg-green-600 h-2 rounded-full transition-all"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+            <span className="text-sm font-medium">{progress}%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Module Viewer Component
+const ModuleViewer = ({ module, onBack }) => {
+  const [activeTab, setActiveTab] = useState('overview');
+  const [currentSubsection, setCurrentSubsection] = useState(0);
+  const [showQuiz, setShowQuiz] = useState(false);
+  const { progress, setProgress } = useContext(LearningContext);
+
+  const markAsComplete = () => {
+    setProgress(prev => ({
+      ...prev,
+      [`module_${module.module_number}`]: { completed: true, score: 85 }
+    }));
+    onBack();
+  };
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {/* Back Button */}
+      <button 
+        onClick={onBack}
+        className="mb-6 text-blue-600 hover:text-blue-800 flex items-center"
+      >
+        <ChevronRight className="w-4 h-4 mr-1 rotate-180" />
+        Back to Dashboard
+      </button>
+
+      {/* Module Header */}
+      <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div className="flex items-start justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">
+              Module {module.module_number}: {module.title}
+            </h1>
+            <p className="text-gray-600">
+              Line {module.line_number} in source document
+            </p>
+          </div>
+          <button
+            onClick={markAsComplete}
+            className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+          >
+            Mark Complete
+          </button>
+        </div>
+      </div>
+
+      {/* Navigation Tabs */}
+      <div className="bg-white rounded-lg shadow-md mb-6">
+        <div className="border-b">
+          <nav className="flex -mb-px">
+            {['overview', 'content', 'activities', 'assessment'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`py-4 px-6 font-medium text-sm capitalize ${
+                  activeTab === tab
+                    ? 'border-b-2 border-blue-600 text-blue-600'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                {tab}
+              </button>
+            ))}
+          </nav>
+        </div>
+
+        {/* Tab Content */}
+        <div className="p-6">
+          {activeTab === 'overview' && (
+            <ModuleOverview module={module} />
+          )}
+          {activeTab === 'content' && (
+            <ModuleContent 
+              module={module} 
+              currentSubsection={currentSubsection}
+              setCurrentSubsection={setCurrentSubsection}
+            />
+          )}
+          {activeTab === 'activities' && (
+            <ModuleActivities module={module} />
+          )}
+          {activeTab === 'assessment' && (
+            <ModuleAssessment module={module} />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Module Overview Component
+const ModuleOverview = ({ module }) => {
+  const objectives = module.sections?.find(s => s.type === 'objectives');
+  const keyTerms = module.sections?.find(s => s.type === 'key_terms');
+
+  return (
+    <div className="space-y-6">
+      {objectives && (
+        <div>
+          <h3 className="text-lg font-semibold mb-3">Learning Objectives</h3>
+          <ul className="list-disc pl-5 space-y-2 text-gray-700">
+            {objectives.content.length > 0 ? (
+              objectives.content.map((obj, idx) => (
+                <li key={idx}>{obj}</li>
+              ))
+            ) : (
+              <li>Understand the key concepts of {module.title}</li>
+            )}
+          </ul>
+        </div>
+      )}
+
+      <div>
+        <h3 className="text-lg font-semibold mb-3">Topics Covered</h3>
+        <div className="grid gap-3 md:grid-cols-2">
+          {module.subsections?.map((subsection, idx) => (
+            <div key={idx} className="bg-gray-50 p-4 rounded-lg">
+              <h4 className="font-medium text-gray-900">{subsection.title}</h4>
+              <p className="text-sm text-gray-600 mt-1">
+                Lines {subsection.start_line}-{subsection.end_line}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {keyTerms && keyTerms.content.length > 0 && (
+        <div>
+          <h3 className="text-lg font-semibold mb-3">Key Terms</h3>
+          <div className="flex flex-wrap gap-2">
+            {keyTerms.content.map((term, idx) => (
+              <span key={idx} className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
+                {term}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+// Module Content Component
+const ModuleContent = ({ module, currentSubsection, setCurrentSubsection }) => {
+  const subsection = module.subsections?.[currentSubsection];
+
+  if (!subsection) {
+    return <div>No content available</div>;
+  }
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-6">
+        <h3 className="text-xl font-semibold">{subsection.title}</h3>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => setCurrentSubsection(Math.max(0, currentSubsection - 1))}
+            disabled={currentSubsection === 0}
+            className="p-2 rounded-lg border hover:bg-gray-50 disabled:opacity-50"
+          >
+            <ChevronRight className="w-4 h-4 rotate-180" />
+          </button>
+          <span className="text-sm text-gray-600">
+            {currentSubsection + 1} of {module.subsections.length}
+          </span>
+          <button
+            onClick={() => setCurrentSubsection(Math.min(module.subsections.length - 1, currentSubsection + 1))}
+            disabled={currentSubsection === module.subsections.length - 1}
+            className="p-2 rounded-lg border hover:bg-gray-50 disabled:opacity-50"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+      </div>
+
+      <div className="prose max-w-none">
+        <p className="text-gray-700 leading-relaxed">
+          Content from lines {subsection.start_line} to {subsection.end_line} of the source document would be displayed here.
+        </p>
+        
+        {/* Placeholder content */}
+        <div className="mt-6 p-6 bg-blue-50 rounded-lg">
+          <h4 className="font-semibold text-blue-900 mb-2">Note</h4>
+          <p className="text-blue-800">
+            In the full implementation, this section would display the actual content from your source document,
+            with proper citations and references preserved as per your requirements.
+          </p>
+        </div>
+      </div>
+
+      {/* Progress indicator */}
+      <div className="mt-8 flex justify-center">
+        <div className="flex gap-2">
+          {module.subsections.map((_, idx) => (
+            <div
+              key={idx}
+              className={`w-2 h-2 rounded-full transition-colors ${
+                idx === currentSubsection ? 'bg-blue-600' : 'bg-gray-300'
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Module Activities Component
+const ModuleActivities = ({ module }) => {
+  const activities = [
+    {
+      type: 'interactive',
+      title: 'Therapeutic vs Social Relationships',
+      description: 'Practice identifying relationship boundaries',
+      icon: Brain,
+      color: 'purple'
+    },
+    {
+      type: 'simulation',
+      title: 'Patient Interaction Scenario',
+      description: 'Navigate a challenging patient conversation',
+      icon: Brain,
+      color: 'indigo'
+    },
+    {
+      type: 'case-study',
+      title: 'Transference Case Analysis',
+      description: 'Analyze a complex clinical situation',
+      icon: BookOpen,
+      color: 'orange'
+    }
+  ];
+
+  return (
+    <div className="space-y-4">
+      {activities.map((activity, idx) => (
+        <div key={idx} className="border rounded-lg p-6 hover:shadow-md transition-shadow cursor-pointer">
+          <div className="flex items-start">
+            <div className={`p-3 rounded-lg bg-${activity.color}-100 mr-4`}>
+              <activity.icon className={`w-6 h-6 text-${activity.color}-600`} />
+            </div>
+            <div className="flex-1">
+              <h4 className="font-semibold text-gray-900 mb-1">{activity.title}</h4>
+              <p className="text-gray-600 text-sm mb-3">{activity.description}</p>
+              <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                Start Activity →
+              </button>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+// Module Assessment Component
+const ModuleAssessment = ({ module }) => {
+  const [quizStarted, setQuizStarted] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [showResults, setShowResults] = useState(false);
+
+  const questions = [
+    {
+      id: 1,
+      question: "What is the primary characteristic of a therapeutic relationship?",
+      options: [
+        "Mutual benefit for both parties",
+        "Goal-oriented and patient-centered",
+        "Long-term friendship development",
+        "Casual and spontaneous interactions"
+      ],
+      correct: 1
+    },
+    {
+      id: 2,
+      question: "Which phase involves establishing trust with the patient?",
+      options: [
+        "Pre-orientation phase",
+        "Orientation phase",
+        "Working phase",
+        "Termination phase"
+      ],
+      correct: 1
+    }
+  ];
+
+  const handleAnswer = (questionId, answerIndex) => {
+    setAnswers(prev => ({ ...prev, [questionId]: answerIndex }));
+  };
+
+  const calculateScore = () => {
+    const correct = questions.filter(q => answers[q.id] === q.correct).length;
+    return (correct / questions.length) * 100;
+  };
+
+  if (!quizStarted) {
+    return (
+      <div className="text-center py-12">
+        <ClipboardList className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Module Assessment</h3>
+        <p className="text-gray-600 mb-6">
+          Test your knowledge with {questions.length} questions
+        </p>
+        <button
+          onClick={() => setQuizStarted(true)}
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+        >
+          Start Assessment
+        </button>
+      </div>
+    );
+  }
+
+  if (showResults) {
+    const score = calculateScore();
+    return (
+      <div className="text-center py-12">
+        <Trophy className={`w-16 h-16 ${score >= 70 ? 'text-yellow-500' : 'text-gray-400'} mx-auto mb-4`} />
+        <h3 className="text-2xl font-bold mb-2">Assessment Complete!</h3>
+        <p className="text-3xl font-bold text-blue-600 mb-4">{score}%</p>
+        <p className="text-gray-600 mb-6">
+          {score >= 70 ? 'Great job! You passed the assessment.' : 'Keep studying and try again.'}
+        </p>
+        <button
+          onClick={() => {
+            setQuizStarted(false);
+            setCurrentQuestion(0);
+            setAnswers({});
+            setShowResults(false);
+          }}
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+        >
+          Retake Assessment
+        </button>
+      </div>
+    );
+  }
+
+  const question = questions[currentQuestion];
+
+  return (
+    <div>
+      <div className="mb-6">
+        <div className="flex justify-between items-center mb-4">
+          <span className="text-sm text-gray-600">
+            Question {currentQuestion + 1} of {questions.length}
+          </span>
+          <div className="flex gap-1">
+            {questions.map((_, idx) => (
+              <div
+                key={idx}
+                className={`w-8 h-1 rounded ${
+                  idx < currentQuestion ? 'bg-green-600' :
+                  idx === currentQuestion ? 'bg-blue-600' : 'bg-gray-300'
+                }`}
+              />
+            ))}
+          </div>
+        </div>
+        
+        <h4 className="text-lg font-medium mb-4">{question.question}</h4>
+        
+        <div className="space-y-3">
+          {question.options.map((option, idx) => (
+            <label key={idx} className="flex items-center p-4 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-100">
+              <input
+                type="radio"
+                name={`question-${question.id}`}
+                value={idx}
+                checked={answers[question.id] === idx}
+                onChange={() => handleAnswer(question.id, idx)}
+                className="mr-3"
+              />
+              <span>{option}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex justify-between">
+        <button
+          onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
+          disabled={currentQuestion === 0}
+          className="px-4 py-2 text-gray-600 hover:text-gray-800 disabled:opacity-50"
+        >
+          Previous
+        </button>
+        
+        {currentQuestion === questions.length - 1 ? (
+          <button
+            onClick={() => setShowResults(true)}
+            disabled={Object.keys(answers).length < questions.length}
+            className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50"
+          >
+            Submit Assessment
+          </button>
+        ) : (
+          <button
+            onClick={() => setCurrentQuestion(currentQuestion + 1)}
+            disabled={!answers[question.id] && answers[question.id] !== 0}
+            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50"
+          >
+            Next
+          </button>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default MentalHealthLMS;
+
