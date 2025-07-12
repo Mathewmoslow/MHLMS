@@ -27,7 +27,6 @@ function Home() {
     };
     
     localStorage.setItem('mental-health-lms-progress', JSON.stringify(testProgress));
-    console.log('🔓 All modules unlocked for testing!');
     window.location.reload();
   };
 
@@ -35,8 +34,6 @@ function Home() {
   const handleVersionClick = () => {
     const newCount = clickCount + 1;
     setClickCount(newCount);
-    
-    console.log(`Click ${newCount}/5`); // Debug logging
     
     if (newCount >= 5) {
       setClickCount(0); // Reset counter
