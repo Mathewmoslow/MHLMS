@@ -1,7 +1,8 @@
 // src/pages/FinalExam.js
 import React, { useState, useEffect } from "react";
 import { useProgress } from "../context/ProgressContext";
-import { questions } from "../data/questions";
+import * as questionsData from "../data/questions";
+const questions = questionsData.questions;
 import QuestionComponent from "../components/QuestionComponent";
 import { Trophy, Clock, BookOpen } from "lucide-react";
 

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 71,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Major depressive disorder requires symptoms to be present for at least:",
+    "options": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "3 months"
+    ],
+    "correctAnswer": 1,
+    "rationale": "DSM-5 criteria for major depressive disorder require symptoms to be present for at least 2 weeks."
+  },
+  {
+    "id": 72,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Which symptom is required for a diagnosis of major depression?",
+    "options": [
+      "Insomnia",
+      "Weight loss",
+      "Depressed mood or anhedonia",
+      "Psychomotor agitation"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Either depressed mood or anhedonia (loss of interest/pleasure) must be present for a diagnosis of major depression."
+  },
+  {
+    "id": 73,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "A manic episode in bipolar disorder must last at least:",
+    "options": [
+      "2 days",
+      "4 days",
+      "1 week",
+      "2 weeks"
+    ],
+    "correctAnswer": 2,
+    "rationale": "A manic episode must last at least 1 week (or any duration if hospitalization is required) for bipolar I disorder diagnosis."
+  },
+  {
+    "id": 74,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Which assessment finding is most concerning in a depressed patient?",
+    "options": [
+      "Appetite changes",
+      "Sleep disturbances",
+      "Suicidal ideation",
+      "Social withdrawal"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Suicidal ideation is the most concerning finding as it indicates immediate risk for self-harm and requires immediate intervention."
+  },
+  {
+    "id": 75,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Hypomania differs from mania in that it:",
+    "options": [
+      "Lasts longer",
+      "Is less severe and doesn't impair functioning",
+      "Only occurs in children",
+      "Requires hospitalization"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Hypomania is a milder form of mania that doesn't cause marked impairment in functioning or require hospitalization."
+  },
+  {
+    "id": 76,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "The therapeutic range for lithium is:",
+    "options": [
+      "0.1-0.5 mEq/L",
+      "0.8-1.4 mEq/L",
+      "2.0-3.0 mEq/L",
+      "5.0-10.0 mEq/L"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The therapeutic range for lithium is 0.8-1.4 mEq/L for acute treatment and 0.6-1.2 mEq/L for maintenance."
+  },
+  {
+    "id": 77,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Which intervention is priority for a manic patient?",
+    "options": [
+      "Encouraging group activities",
+      "Providing stimulating environment",
+      "Ensuring adequate nutrition and rest",
+      "Challenging grandiose thinking"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Manic patients often neglect basic needs like nutrition and sleep, so ensuring these basic needs are met is priority."
+  },
+  {
+    "id": 78,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Electroconvulsive therapy (ECT) is most appropriate for:",
+    "options": [
+      "Mild depression",
+      "Treatment-resistant depression with high suicide risk",
+      "Bipolar disorder in remission",
+      "Anxiety disorders"
+    ],
+    "correctAnswer": 1,
+    "rationale": "ECT is most appropriate for severe, treatment-resistant depression, especially when there is high suicide risk requiring rapid response."
+  },
+  {
+    "id": 79,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "Which statement indicates understanding of antidepressant therapy?",
+    "options": [
+      "I should feel better within a few days",
+      "I can stop taking it when I feel better",
+      "It may take several weeks to feel the full effect",
+      "I should only take it when I'm feeling sad"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Antidepressants typically take 2-4 weeks to reach full therapeutic effect, and patients need to understand this to maintain adherence."
+  },
+  {
+    "id": 80,
+    "moduleId": 8,
+    "type": "multiple-choice",
+    "question": "The most concerning side effect of tricyclic antidepressants is:",
+    "options": [
+      "Dry mouth",
+      "Constipation",
+      "Cardiac arrhythmias",
+      "Weight gain"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Cardiac arrhythmias are the most serious side effect of tricyclic antidepressants and can be life-threatening, especially in overdose."
+  }
+]

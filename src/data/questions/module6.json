@@ -1,0 +1,142 @@
+[
+  {
+    "id": 51,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "According to DSM-5, substance use disorder is diagnosed when a person meets how many criteria?",
+    "options": [
+      "1 or more",
+      "2 or more",
+      "4 or more",
+      "6 or more"
+    ],
+    "correctAnswer": 1,
+    "rationale": "DSM-5 requires 2 or more criteria within a 12-month period for a substance use disorder diagnosis, with severity based on the number of criteria met."
+  },
+  {
+    "id": 52,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "A CIWA-Ar score of 18 indicates:",
+    "options": [
+      "No withdrawal symptoms",
+      "Mild withdrawal symptoms",
+      "Moderate withdrawal symptoms",
+      "Severe withdrawal symptoms requiring immediate intervention"
+    ],
+    "correctAnswer": 3,
+    "rationale": "CIWA-Ar scores of 16 or higher indicate severe withdrawal symptoms requiring immediate medical intervention and likely hospitalization."
+  },
+  {
+    "id": 53,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Delirium tremens typically occurs:",
+    "options": [
+      "6-12 hours after last drink",
+      "12-24 hours after last drink",
+      "3-5 days after last drink",
+      "1-2 weeks after last drink"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Delirium tremens typically occurs 3-5 days after the last drink and represents a medical emergency requiring immediate treatment."
+  },
+  {
+    "id": 54,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Which medication is commonly used for alcohol withdrawal?",
+    "options": [
+      "Haloperidol",
+      "Lorazepam",
+      "Fluoxetine",
+      "Lithium"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Benzodiazepines like lorazepam are first-line treatment for alcohol withdrawal because they prevent seizures and reduce symptoms."
+  },
+  {
+    "id": 55,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Tolerance is defined as:",
+    "options": [
+      "Physical dependence on a substance",
+      "Psychological craving for a substance",
+      "Need for increased amounts to achieve the same effect",
+      "Withdrawal symptoms when stopping use"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Tolerance occurs when the body adapts to a substance, requiring increased amounts to achieve the same desired effect."
+  },
+  {
+    "id": 56,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Which behavior is an example of enabling?",
+    "options": [
+      "Setting clear boundaries with the user",
+      "Calling in sick for the user when they're hungover",
+      "Refusing to give money to the user",
+      "Attending Al-Anon meetings"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Enabling behaviors protect the substance user from consequences of their use, such as calling in sick for them, which prevents them from experiencing natural consequences."
+  },
+  {
+    "id": 57,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Wernicke-Korsakoff syndrome is caused by deficiency of:",
+    "options": [
+      "Vitamin B1 (thiamine)",
+      "Vitamin B12",
+      "Folate",
+      "Vitamin D"
+    ],
+    "correctAnswer": 0,
+    "rationale": "Wernicke-Korsakoff syndrome is caused by thiamine (vitamin B1) deficiency, commonly seen in chronic alcoholism."
+  },
+  {
+    "id": 58,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "The first step in Alcoholics Anonymous is:",
+    "options": [
+      "Making amends to those harmed",
+      "Helping other alcoholics",
+      "Admitting powerlessness over alcohol",
+      "Turning to a higher power"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Step 1 of AA involves admitting powerlessness over alcohol and that life has become unmanageable."
+  },
+  {
+    "id": 59,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Which assessment finding suggests opioid intoxication?",
+    "options": [
+      "Dilated pupils",
+      "Constricted pupils",
+      "Hypervigilance",
+      "Increased energy"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Opioid intoxication typically causes constricted (pinpoint) pupils, along with sedation and respiratory depression."
+  },
+  {
+    "id": 60,
+    "moduleId": 6,
+    "type": "multiple-choice",
+    "question": "Codependency is characterized by:",
+    "options": [
+      "Using substances together",
+      "Excessive focus on controlling others' behavior",
+      "Physical dependence on drugs",
+      "Tolerance to alcohol"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Codependency involves excessive focus on controlling others' behavior, often at the expense of one's own needs and well-being."
+  }
+]

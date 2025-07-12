@@ -1,0 +1,142 @@
+[
+  {
+    "id": 81,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Which characteristic is typical of autism spectrum disorder?",
+    "options": [
+      "Excessive social interaction",
+      "Deficits in social communication and repetitive behaviors",
+      "Hyperactivity only",
+      "Above-average intelligence only"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Autism spectrum disorder is characterized by deficits in social communication and interaction, along with restricted, repetitive patterns of behavior."
+  },
+  {
+    "id": 82,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "The primary difference between anorexia nervosa and bulimia nervosa is:",
+    "options": [
+      "Anorexia involves binge eating",
+      "Bulimia patients maintain normal weight",
+      "Anorexia only affects females",
+      "Bulimia is more serious"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Bulimia nervosa patients typically maintain normal or above-normal weight, while anorexia nervosa patients have significantly low body weight."
+  },
+  {
+    "id": 83,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Which assessment finding is most concerning in a patient with anorexia?",
+    "options": [
+      "Amenorrhea",
+      "Lanugo hair",
+      "Bradycardia",
+      "Preoccupation with food"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Bradycardia can indicate serious cardiac complications from malnutrition and requires immediate medical attention."
+  },
+  {
+    "id": 84,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Delirium differs from dementia in that delirium:",
+    "options": [
+      "Is irreversible",
+      "Has acute onset",
+      "Only affects memory",
+      "Occurs only in elderly"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Delirium has acute onset (hours to days) and fluctuating course, while dementia has gradual onset and progressive decline."
+  },
+  {
+    "id": 85,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Which intervention is most appropriate for a child with ADHD?",
+    "options": [
+      "Unstructured environment",
+      "Long, complex instructions",
+      "Consistent routine and clear expectations",
+      "Elimination of all stimuli"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Children with ADHD benefit from consistent routines, clear expectations, and structured environments to help manage symptoms."
+  },
+  {
+    "id": 86,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "The most common cause of dementia is:",
+    "options": [
+      "Vascular disease",
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "Head trauma"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Alzheimer's disease is the most common cause of dementia, accounting for 60-80% of cases."
+  },
+  {
+    "id": 87,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Which medication is used to treat Alzheimer's disease?",
+    "options": [
+      "Haloperidol",
+      "Donepezil",
+      "Lorazepam",
+      "Sertraline"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Donepezil is a cholinesterase inhibitor used to treat mild to moderate Alzheimer's disease by increasing acetylcholine levels."
+  },
+  {
+    "id": 88,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "When communicating with a patient with dementia, the nurse should:",
+    "options": [
+      "Speak loudly and quickly",
+      "Use complex sentences",
+      "Speak slowly and use simple words",
+      "Avoid eye contact"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Communication with dementia patients should involve speaking slowly, using simple words and short sentences, and maintaining eye contact."
+  },
+  {
+    "id": 89,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Russell's sign is associated with:",
+    "options": [
+      "Anorexia nervosa",
+      "Bulimia nervosa",
+      "Binge eating disorder",
+      "ADHD"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Russell's sign (calluses on knuckles from induced vomiting) is commonly seen in bulimia nervosa patients who use self-induced vomiting."
+  },
+  {
+    "id": 90,
+    "moduleId": 9,
+    "type": "multiple-choice",
+    "question": "Sundowning in dementia patients refers to:",
+    "options": [
+      "Improved cognition in the evening",
+      "Worsening confusion and agitation in late afternoon/evening",
+      "Sleeping during the day",
+      "Increased appetite at night"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Sundowning refers to increased confusion, anxiety, and agitation that typically occurs in late afternoon and evening in dementia patients."
+  }
+]

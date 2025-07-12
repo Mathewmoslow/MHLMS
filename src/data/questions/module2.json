@@ -1,0 +1,142 @@
+[
+  {
+    "id": 11,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Which neurotransmitter is primarily associated with mood regulation?",
+    "options": [
+      "Dopamine",
+      "Serotonin",
+      "GABA",
+      "Acetylcholine"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Serotonin is the primary neurotransmitter involved in mood regulation, and many antidepressants work by affecting serotonin levels."
+  },
+  {
+    "id": 12,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "SSRIs work by:",
+    "options": [
+      "Blocking dopamine receptors",
+      "Increasing GABA production",
+      "Preventing serotonin reuptake",
+      "Stimulating acetylcholine release"
+    ],
+    "correctAnswer": 2,
+    "rationale": "SSRIs (Selective Serotonin Reuptake Inhibitors) block the reuptake of serotonin, increasing its availability in the synaptic cleft."
+  },
+  {
+    "id": 13,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "The black box warning for antidepressants indicates:",
+    "options": [
+      "Risk of liver damage",
+      "Increased suicide risk in patients under 25",
+      "Potential for addiction",
+      "Risk of heart problems"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The FDA black box warning for antidepressants highlights the increased risk of suicidal thoughts and behaviors in patients under 25."
+  },
+  {
+    "id": 14,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Which medication class is first-line treatment for anxiety disorders?",
+    "options": [
+      "Benzodiazepines",
+      "Antipsychotics",
+      "SSRIs",
+      "Mood stabilizers"
+    ],
+    "correctAnswer": 2,
+    "rationale": "SSRIs are considered first-line treatment for most anxiety disorders due to their efficacy and better side effect profile compared to benzodiazepines."
+  },
+  {
+    "id": 15,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "A major concern with long-term benzodiazepine use is:",
+    "options": [
+      "Weight gain",
+      "Dependence and tolerance",
+      "Hair loss",
+      "Skin rash"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Benzodiazepines have high potential for dependence and tolerance, requiring careful monitoring and gradual tapering when discontinuing."
+  },
+  {
+    "id": 16,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Lithium levels should be monitored because:",
+    "options": [
+      "The therapeutic window is narrow",
+      "It causes liver damage",
+      "It affects blood sugar",
+      "It changes blood pressure"
+    ],
+    "correctAnswer": 0,
+    "rationale": "Lithium has a narrow therapeutic window, and levels that are too high can cause toxicity while levels too low are ineffective."
+  },
+  {
+    "id": 17,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Extrapyramidal side effects are most commonly associated with:",
+    "options": [
+      "Antidepressants",
+      "Anxiolytics",
+      "Typical antipsychotics",
+      "Mood stabilizers"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Typical (first-generation) antipsychotics have a high risk of extrapyramidal side effects due to dopamine receptor blockade."
+  },
+  {
+    "id": 18,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Which side effect is most concerning with atypical antipsychotics?",
+    "options": [
+      "Dry mouth",
+      "Metabolic syndrome",
+      "Headache",
+      "Insomnia"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Atypical antipsychotics carry significant risk for metabolic syndrome, including weight gain, diabetes, and cardiovascular disease."
+  },
+  {
+    "id": 19,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Patient education for antidepressants should include:",
+    "options": [
+      "Effects are immediate",
+      "Can be stopped abruptly",
+      "May take 2-4 weeks for full effect",
+      "Should be taken only when feeling depressed"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Antidepressants typically take 2-4 weeks to reach full therapeutic effect, and patients need to understand this to maintain adherence."
+  },
+  {
+    "id": 20,
+    "moduleId": 2,
+    "type": "multiple-choice",
+    "question": "Which assessment is priority before administering lithium?",
+    "options": [
+      "Blood pressure",
+      "Kidney function",
+      "Liver function",
+      "Blood glucose"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Lithium is primarily excreted by the kidneys, so kidney function must be assessed before starting therapy and monitored regularly."
+  }
+]

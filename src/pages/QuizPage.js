@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Navigate, useNavigate } from 'react-router-dom';
 import { useProgress } from '../context/ProgressContext';
-import { questions } from '../data/questions';
+import * as questionsData from '../data/questions';
+const questions = questionsData.questions;
 import QuestionComponent from '../components/QuestionComponent';
 import { ArrowLeft, ArrowRight, CheckCircle } from 'lucide-react';
 

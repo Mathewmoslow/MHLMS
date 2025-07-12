@@ -1,0 +1,142 @@
+[
+  {
+    "id": 101,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Borderline personality disorder is characterized by:",
+    "options": [
+      "Grandiosity and lack of empathy",
+      "Instability in relationships and self-image",
+      "Pervasive distrust of others",
+      "Excessive need to be cared for"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Borderline personality disorder is characterized by pervasive instability in interpersonal relationships, self-image, and emotions."
+  },
+  {
+    "id": 102,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Splitting in borderline personality disorder refers to:",
+    "options": [
+      "Multiple personalities",
+      "Memory gaps",
+      "Viewing people as all good or all bad",
+      "Physical self-harm"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Splitting is a defense mechanism where people are viewed in extremes as either all good or all bad, with no middle ground."
+  },
+  {
+    "id": 103,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Which personality disorder cluster is characterized as 'dramatic, emotional, erratic'?",
+    "options": [
+      "Cluster A",
+      "Cluster B",
+      "Cluster C",
+      "Cluster D"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Cluster B includes borderline, narcissistic, histrionic, and antisocial personality disorders, characterized as dramatic, emotional, and erratic."
+  },
+  {
+    "id": 104,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "The most appropriate nursing intervention for a patient with narcissistic personality disorder is:",
+    "options": [
+      "Challenge their grandiose thoughts directly",
+      "Provide excessive praise",
+      "Set clear, consistent limits",
+      "Ignore their attention-seeking behavior"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Setting clear, consistent limits while maintaining respect is most therapeutic for patients with narcissistic personality disorder."
+  },
+  {
+    "id": 105,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Dialectical Behavior Therapy (DBT) was specifically developed for:",
+    "options": [
+      "Schizophrenia",
+      "Borderline personality disorder",
+      "Depression",
+      "Anxiety disorders"
+    ],
+    "correctAnswer": 1,
+    "rationale": "DBT was specifically developed by Marsha Linehan for treating borderline personality disorder and focuses on emotion regulation and distress tolerance."
+  },
+  {
+    "id": 106,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Which DBT skill helps with distress tolerance?",
+    "options": [
+      "DEAR MAN",
+      "TIPP",
+      "GIVE",
+      "FAST"
+    ],
+    "correctAnswer": 1,
+    "rationale": "TIPP (Temperature, Intense exercise, Paced breathing, Paired muscle relaxation) is a distress tolerance skill used to manage crisis situations."
+  },
+  {
+    "id": 107,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Antisocial personality disorder is characterized by:",
+    "options": [
+      "Extreme shyness",
+      "Disregard for rights of others",
+      "Excessive emotionality",
+      "Fear of abandonment"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Antisocial personality disorder involves a pervasive pattern of disregard for and violation of the rights of others."
+  },
+  {
+    "id": 108,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "When working with personality disorder patients, maintaining _____ is most important:",
+    "options": [
+      "Flexibility in rules",
+      "Personal relationships",
+      "Consistent boundaries",
+      "Emotional involvement"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Maintaining consistent boundaries is crucial when working with personality disorder patients to prevent manipulation and maintain therapeutic relationships."
+  },
+  {
+    "id": 109,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Avoidant personality disorder is characterized by:",
+    "options": [
+      "Need for control",
+      "Social inhibition and feelings of inadequacy",
+      "Dramatic behavior",
+      "Lack of empathy"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Avoidant personality disorder involves social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation."
+  },
+  {
+    "id": 110,
+    "moduleId": 11,
+    "type": "multiple-choice",
+    "question": "Which approach is least effective with personality disorder patients?",
+    "options": [
+      "Setting clear limits",
+      "Consistent consequences",
+      "Arguing about their perceptions",
+      "Team communication"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Arguing about perceptions is counterproductive and can escalate conflict; validation while setting limits is more effective."
+  }
+]

@@ -2,7 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useProgress } from '../context/ProgressContext';
-import { modules } from '../data/modules';
+import * as modulesData from '../data/modules';
+const modules = modulesData.modules;
 import { CheckCircle, Lock, BookOpen, Award } from 'lucide-react';
 
 function Home() {
@@ -27,7 +28,6 @@ function Home() {
     };
     
     localStorage.setItem('mental-health-lms-progress', JSON.stringify(testProgress));
-    console.log('🔓 All modules unlocked for testing!');
     window.location.reload();
   };
 
@@ -35,8 +35,6 @@ function Home() {
   const handleVersionClick = () => {
     const newCount = clickCount + 1;
     setClickCount(newCount);
-    
-    console.log(`Click ${newCount}/5`); // Debug logging
     
     if (newCount >= 5) {
       setClickCount(0); // Reset counter
