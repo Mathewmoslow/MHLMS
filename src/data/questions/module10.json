@@ -1,0 +1,142 @@
+[
+  {
+    "id": 91,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "According to Peplau, mild anxiety:",
+    "options": [
+      "Impairs learning completely",
+      "Enhances learning and perception",
+      "Causes panic symptoms",
+      "Requires immediate medication"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Mild anxiety actually enhances learning and perception by increasing alertness and motivation."
+  },
+  {
+    "id": 92,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Panic disorder is characterized by:",
+    "options": [
+      "Constant high anxiety",
+      "Fear of specific objects",
+      "Recurrent panic attacks with persistent worry about attacks",
+      "Intrusive thoughts only"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Panic disorder involves recurrent panic attacks plus persistent worry about having additional attacks or their consequences."
+  },
+  {
+    "id": 93,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Which symptom is characteristic of a panic attack?",
+    "options": [
+      "Gradual onset of worry",
+      "Palpitations and shortness of breath",
+      "Chronic fatigue",
+      "Memory loss"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Panic attacks involve sudden onset of intense physical symptoms including palpitations, shortness of breath, chest pain, and sweating."
+  },
+  {
+    "id": 94,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "The defense mechanism of displacement involves:",
+    "options": [
+      "Denying reality",
+      "Redirecting emotions to a safer target",
+      "Returning to earlier behaviors",
+      "Creating logical explanations"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Displacement involves redirecting emotions from the original source to a safer or more acceptable target."
+  },
+  {
+    "id": 95,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Obsessive-compulsive disorder involves:",
+    "options": [
+      "Only obsessions",
+      "Only compulsions",
+      "Both obsessions and compulsions",
+      "Neither obsessions nor compulsions"
+    ],
+    "correctAnswer": 2,
+    "rationale": "OCD involves both obsessions (intrusive thoughts) and compulsions (repetitive behaviors) that are performed to reduce anxiety."
+  },
+  {
+    "id": 96,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "The most effective treatment for specific phobias is:",
+    "options": [
+      "Medication only",
+      "Exposure therapy",
+      "Psychoanalysis",
+      "Hospitalization"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Exposure therapy, particularly systematic desensitization, is the most effective treatment for specific phobias."
+  },
+  {
+    "id": 97,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Generalized anxiety disorder is characterized by:",
+    "options": [
+      "Specific fears",
+      "Panic attacks",
+      "Excessive worry about multiple areas for 6+ months",
+      "Compulsive behaviors"
+    ],
+    "correctAnswer": 2,
+    "rationale": "GAD involves excessive, difficult-to-control worry about multiple life areas for at least 6 months."
+  },
+  {
+    "id": 98,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Which grounding technique helps with anxiety?",
+    "options": [
+      "5-4-3-2-1 sensory technique",
+      "Rapid breathing",
+      "Avoiding all triggers",
+      "Complete isolation"
+    ],
+    "correctAnswer": 0,
+    "rationale": "The 5-4-3-2-1 technique (5 things you see, 4 you hear, 3 you touch, 2 you smell, 1 you taste) helps ground anxious patients in the present moment."
+  },
+  {
+    "id": 99,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "Social anxiety disorder involves fear of:",
+    "options": [
+      "Being alone",
+      "Social situations and scrutiny by others",
+      "Contamination",
+      "Having a serious illness"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Social anxiety disorder involves persistent fear of social situations where the person may be scrutinized or judged by others."
+  },
+  {
+    "id": 100,
+    "moduleId": 10,
+    "type": "multiple-choice",
+    "question": "At which anxiety level does learning become impossible?",
+    "options": [
+      "Mild",
+      "Moderate",
+      "Severe",
+      "Panic"
+    ],
+    "correctAnswer": 3,
+    "rationale": "At panic level anxiety, the perceptual field is severely restricted and learning becomes impossible due to inability to focus or process information."
+  }
+]

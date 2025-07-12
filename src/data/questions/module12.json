@@ -1,0 +1,142 @@
+[
+  {
+    "id": 111,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Self-concept includes all of the following except:",
+    "options": [
+      "Personal identity",
+      "Body image",
+      "Role performance",
+      "Medication compliance"
+    ],
+    "correctAnswer": 3,
+    "rationale": "Self-concept includes personal identity, body image, role performance, and self-esteem, but not medication compliance."
+  },
+  {
+    "id": 112,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Body dysmorphic disorder is characterized by:",
+    "options": [
+      "Accurate perception of body appearance",
+      "Preoccupation with perceived flaws in appearance",
+      "Desire to gain weight",
+      "Lack of concern about appearance"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Body dysmorphic disorder involves preoccupation with perceived defects or flaws in appearance that are not observable to others."
+  },
+  {
+    "id": 113,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Gender dysphoria refers to:",
+    "options": [
+      "Sexual orientation",
+      "Distress from incongruence between gender identity and assigned sex",
+      "Hormonal imbalances",
+      "Chromosomal abnormalities"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Gender dysphoria is distress that may accompany the incongruence between one's experienced gender identity and assigned sex at birth."
+  },
+  {
+    "id": 114,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "When caring for a transgender patient, the nurse should:",
+    "options": [
+      "Use their birth name",
+      "Ask about their surgery status",
+      "Use their preferred name and pronouns",
+      "Assume their sexual orientation"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Respectful care includes using the patient's preferred name and pronouns, regardless of legal name or gender marker changes."
+  },
+  {
+    "id": 115,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Low self-esteem is characterized by:",
+    "options": [
+      "Realistic self-assessment",
+      "Confidence in abilities",
+      "Negative self-evaluation and self-criticism",
+      "High motivation"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Low self-esteem involves negative self-evaluation, self-criticism, and feelings of inadequacy or worthlessness."
+  },
+  {
+    "id": 116,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Which intervention best supports positive self-concept?",
+    "options": [
+      "Pointing out patient's flaws",
+      "Identifying and reinforcing patient's strengths",
+      "Comparing patient to others",
+      "Minimizing patient's concerns"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Identifying and reinforcing patient strengths helps build positive self-concept and self-esteem."
+  },
+  {
+    "id": 117,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Role performance refers to:",
+    "options": [
+      "Physical appearance",
+      "How well one fulfills expected roles",
+      "Personality traits",
+      "Cognitive abilities"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Role performance is how well an individual fulfills the expectations associated with their various roles (parent, employee, student, etc.)."
+  },
+  {
+    "id": 118,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Which factor most influences body image development?",
+    "options": [
+      "Genetics only",
+      "Media and cultural standards",
+      "Age only",
+      "Education level"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Media representations and cultural beauty standards significantly influence how individuals perceive and evaluate their physical appearance."
+  },
+  {
+    "id": 119,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Adolescents are particularly vulnerable to self-concept issues because:",
+    "options": [
+      "They have fully developed brains",
+      "Identity formation is a primary developmental task",
+      "They don't care about peer opinions",
+      "Physical changes are minimal"
+    ],
+    "correctAnswer": 1,
+    "rationale": "During adolescence, identity formation is the primary developmental task, making teens particularly vulnerable to self-concept and identity issues."
+  },
+  {
+    "id": 120,
+    "moduleId": 12,
+    "type": "multiple-choice",
+    "question": "Which therapeutic communication promotes positive self-concept?",
+    "options": [
+      "Telling the patient what they should think",
+      "Validating the patient's feelings and experiences",
+      "Minimizing the patient's concerns",
+      "Comparing the patient to others"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Validation of feelings and experiences helps patients feel heard and understood, which supports positive self-concept development."
+  }
+]

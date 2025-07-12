@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "Which of the following best describes the primary difference between a therapeutic relationship and a social relationship?",
+    "options": [
+      "Therapeutic relationships last longer than social relationships",
+      "Social relationships are more structured than therapeutic relationships",
+      "Therapeutic relationships are patient-centered and goal-oriented",
+      "Social relationships require more professional boundaries"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Therapeutic relationships are patient-centered, goal-oriented, and focused solely on the patient's needs, unlike social relationships which are mutual."
+  },
+  {
+    "id": 2,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "During which phase of the nurse-client relationship is trust primarily established?",
+    "options": [
+      "Pre-orientation phase",
+      "Orientation phase",
+      "Working phase",
+      "Termination phase"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The orientation phase is when the nurse and client first meet, establish trust, set goals, and clarify expectations for the relationship."
+  },
+  {
+    "id": 3,
+    "moduleId": 1,
+    "type": "matching",
+    "question": "Match the therapeutic communication technique with its correct example:",
+    "pairs": [
+      {
+        "technique": "Active Listening",
+        "example": "Maintaining eye contact, leaning forward, and nodding during client interaction"
+      },
+      {
+        "technique": "Open-ended Questions",
+        "example": "Can you tell me more about what makes you feel anxious?"
+      },
+      {
+        "technique": "Clarification",
+        "example": "Can you explain what you mean by feeling 'weird'?"
+      },
+      {
+        "technique": "Reflection",
+        "example": "You said you're feeling frustrated about your family situation"
+      }
+    ],
+    "rationale": "Each technique serves a specific purpose: Active listening shows engagement, open-ended questions encourage elaboration, clarification ensures understanding, and reflection demonstrates comprehension of the client's feelings."
+  },
+  {
+    "id": 4,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "Which of the following is a nontherapeutic communication technique?",
+    "options": [
+      "Reflecting feelings",
+      "Giving false reassurance",
+      "Using open-ended questions",
+      "Maintaining eye contact"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Giving false reassurance (like 'Everything will be fine') dismisses the client's concerns and blocks further communication."
+  },
+  {
+    "id": 5,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "What is transference in the therapeutic relationship?",
+    "options": [
+      "The nurse's emotional response to the client",
+      "Moving the client to a different unit",
+      "The client's unconscious redirection of feelings toward the nurse",
+      "Sharing personal information with the client"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Transference occurs when clients unconsciously redirect feelings from past relationships onto the nurse, often based on previous experiences with authority figures."
+  },
+  {
+    "id": 6,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "What is countertransference?",
+    "options": [
+      "The client's feelings toward the nurse",
+      "The nurse's emotional reaction to the client",
+      "Transferring a client to another unit",
+      "The therapeutic relationship ending"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Countertransference is the nurse's emotional reaction to the patient, often triggered by the nurse's own past experiences."
+  },
+  {
+    "id": 7,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "Which statement demonstrates empathy?",
+    "options": [
+      "I know exactly how you feel",
+      "Don't worry, everything will be fine",
+      "It sounds like this situation is really difficult for you",
+      "You shouldn't feel that way"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Empathy involves understanding and acknowledging the patient's feelings without judgment or false reassurance."
+  },
+  {
+    "id": 8,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "In the working phase of the therapeutic relationship, the nurse primarily:",
+    "options": [
+      "Establishes trust and rapport",
+      "Helps the client work toward identified goals",
+      "Terminates the relationship",
+      "Conducts initial assessment"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The working phase focuses on helping the client develop new skills and work toward therapeutic goals."
+  },
+  {
+    "id": 9,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "Which response demonstrates active listening?",
+    "options": [
+      "Let me tell you what you should do",
+      "I understand you're saying you feel overwhelmed by work deadlines",
+      "Why do you feel that way?",
+      "Everyone feels that way sometimes"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Active listening involves paraphrasing and reflecting what the client has said to demonstrate understanding."
+  },
+  {
+    "id": 10,
+    "moduleId": 1,
+    "type": "multiple-choice",
+    "question": "Professional boundaries in therapeutic relationships include:",
+    "options": [
+      "Sharing personal problems with clients",
+      "Accepting gifts from clients",
+      "Maintaining confidentiality and professional distance",
+      "Becoming friends with clients after discharge"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Professional boundaries include maintaining confidentiality, appropriate physical and emotional distance, and focusing on the client's needs."
+  }
+]

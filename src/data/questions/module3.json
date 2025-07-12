@@ -1,0 +1,142 @@
+[
+  {
+    "id": 21,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "What is the primary difference between group therapy and therapeutic groups?",
+    "options": [
+      "Group therapy is always longer in duration",
+      "Therapeutic groups focus on education and support rather than formal psychotherapy",
+      "Group therapy can only be led by psychiatrists",
+      "Therapeutic groups require more participants"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Therapeutic groups focus on group interaction, education, and support, while group therapy involves formal psychotherapeutic interventions based on specific theoretical frameworks."
+  },
+  {
+    "id": 22,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "According to Yalom's therapeutic factors, what does 'universality' refer to?",
+    "options": [
+      "The group's acceptance of all members",
+      "Learning that others share similar problems and feelings",
+      "The leader's ability to help everyone equally",
+      "Using techniques that work for all group members"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Universality is the therapeutic factor where group members realize they are not alone in their struggles and that others share similar experiences and feelings."
+  },
+  {
+    "id": 23,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "During which phase of group development does the most therapeutic work typically occur?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "correctAnswer": 3,
+    "rationale": "The performing phase is when the group focuses on problem-solving, goal achievement, and addressing the primary therapeutic objectives."
+  },
+  {
+    "id": 24,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "How should a nurse handle a group member who monopolizes discussion time?",
+    "options": [
+      "Ignore the behavior and continue with the agenda",
+      "Address the entire group about equal participation",
+      "Remove the member from the group immediately",
+      "Allow them to continue to avoid conflict"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The best approach is to address the group as a whole about the importance of equal participation, which redirects behavior without singling out the individual."
+  },
+  {
+    "id": 25,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "What characterizes a 'closed group' format?",
+    "options": [
+      "Members can join or leave at any time",
+      "The group meets indefinitely",
+      "Fixed membership for a predetermined number of sessions",
+      "Only family members can participate"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Closed groups have fixed membership and a predetermined duration, with the same individuals attending for a specific number of sessions."
+  },
+  {
+    "id": 26,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "The therapeutic factor of 'instillation of hope' occurs when:",
+    "options": [
+      "Group members see others improve",
+      "The leader provides encouragement",
+      "Medications start working",
+      "Family members visit"
+    ],
+    "correctAnswer": 0,
+    "rationale": "Instillation of hope occurs when group members witness others' progress and improvement, giving them hope for their own recovery."
+  },
+  {
+    "id": 27,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "Which response is most appropriate for a silent group member?",
+    "options": [
+      "Force them to speak by asking direct questions",
+      "Ignore them completely",
+      "Gently encourage participation without pressure",
+      "Remove them from the group"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Silent members should be gently encouraged to participate while respecting their comfort level and not forcing participation."
+  },
+  {
+    "id": 28,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "In psychoeducational groups, the nurse's primary role is:",
+    "options": [
+      "Therapist",
+      "Educator",
+      "Observer",
+      "Participant"
+    ],
+    "correctAnswer": 1,
+    "rationale": "In psychoeducational groups, the nurse primarily serves as an educator, providing information and teaching skills to group members."
+  },
+  {
+    "id": 29,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "Group cohesion is best achieved when:",
+    "options": [
+      "All members think alike",
+      "There is no conflict",
+      "Members feel accepted and valued",
+      "The leader controls all discussions"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Group cohesion develops when members feel accepted, valued, and safe to express themselves within the group."
+  },
+  {
+    "id": 30,
+    "moduleId": 3,
+    "type": "multiple-choice",
+    "question": "The termination phase of group therapy should include:",
+    "options": [
+      "Abrupt ending without discussion",
+      "Summary of accomplishments and future planning",
+      "Introduction of new members",
+      "Changing the group's focus"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The termination phase should include reflection on accomplishments, processing of feelings about ending, and planning for the future."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 31,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "Which of the following best describes a mental health crisis?",
+    "options": [
+      "Any stressful life event",
+      "A normal response to everyday problems",
+      "A significant disruption to homeostasis that exceeds usual coping mechanisms",
+      "A chronic mental health condition"
+    ],
+    "correctAnswer": 2,
+    "rationale": "A crisis is defined as a significant disruption to homeostasis caused by stress that exceeds a person's usual coping mechanisms and is typically self-limiting (4-6 weeks)."
+  },
+  {
+    "id": 32,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "What are the three criteria for involuntary psychiatric commitment?",
+    "options": [
+      "Mental illness, substance abuse, and homelessness",
+      "Danger to self, danger to others, or gravely disabled",
+      "Psychosis, depression, and anxiety",
+      "Medication non-compliance, family request, and previous hospitalization"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The three criteria for involuntary commitment are: danger to self, danger to others, or being gravely disabled (unable to care for basic needs due to mental illness)."
+  },
+  {
+    "id": 33,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "What is the primary goal of crisis intervention?",
+    "options": [
+      "To provide long-term therapy",
+      "To cure the underlying mental illness",
+      "To stabilize symptoms and prevent relapse requiring hospitalization",
+      "To eliminate all sources of stress"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Crisis intervention is immediate, short-term, goal-directed therapy focused on stabilizing symptoms, reducing immediate distress, and preventing the need for hospitalization."
+  },
+  {
+    "id": 34,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "The DSM-5 is primarily used for:",
+    "options": [
+      "Treatment planning and interventions",
+      "Diagnosing mental health disorders",
+      "Medication management",
+      "Nursing care plans"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The DSM-5 provides specific diagnostic criteria for mental health disorders but does not include treatment guidelines, medications, or nursing interventions."
+  },
+  {
+    "id": 35,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "Which is an example of active listening during a crisis intervention?",
+    "options": [
+      "Giving advice on how to solve the problem",
+      "Maintaining eye contact, nodding, and reflecting what you hear",
+      "Asking multiple questions rapidly",
+      "Reassuring the person that everything will be fine"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Active listening involves being fully present, maintaining eye contact, using body language to show engagement, and reflecting back what you hear to demonstrate understanding."
+  },
+  {
+    "id": 36,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "A situational crisis is characterized by:",
+    "options": [
+      "Predictable life transitions",
+      "Unexpected external events",
+      "Chronic mental illness",
+      "Personality disorders"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Situational crises are caused by unexpected external events such as natural disasters, job loss, or death of a loved one."
+  },
+  {
+    "id": 37,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "The typical duration of a crisis is:",
+    "options": [
+      "1-2 weeks",
+      "4-6 weeks",
+      "2-3 months",
+      "6 months to 1 year"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Crises are typically self-limiting and last approximately 4-6 weeks before resolution occurs."
+  },
+  {
+    "id": 38,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "Which nursing diagnosis is most appropriate for a patient in crisis?",
+    "options": [
+      "Knowledge deficit",
+      "Ineffective coping",
+      "Social isolation",
+      "Chronic pain"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Ineffective coping is the most appropriate nursing diagnosis for a patient in crisis, as the crisis occurs when usual coping mechanisms are inadequate."
+  },
+  {
+    "id": 39,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "What is the nurse's priority when working with a patient in crisis?",
+    "options": [
+      "Gathering detailed history",
+      "Ensuring safety",
+      "Medication administration",
+      "Family notification"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Safety is always the priority when working with patients in crisis, as they may be at risk for self-harm or harm to others."
+  },
+  {
+    "id": 40,
+    "moduleId": 4,
+    "type": "multiple-choice",
+    "question": "A developmental crisis is most likely to occur during:",
+    "options": [
+      "Natural disasters",
+      "Job loss",
+      "Adolescence",
+      "Acute illness"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Developmental crises occur during normal life transitions such as adolescence, when individuals may struggle to adapt to developmental challenges."
+  }
+]

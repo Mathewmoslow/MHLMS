@@ -1,0 +1,142 @@
+[
+  {
+    "id": 131,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "According to Family Systems Theory, families are:",
+    "options": [
+      "Simply a collection of individuals",
+      "More than the sum of their individual members",
+      "Only important during childhood",
+      "Easily replaceable systems"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Family Systems Theory views families as whole systems that are more than the sum of their individual members, with complex interactions and relationships."
+  },
+  {
+    "id": 132,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "A genogram is used to:",
+    "options": [
+      "Test genetic markers",
+      "Assess medication compliance",
+      "Map family structure and relationships across generations",
+      "Measure intelligence"
+    ],
+    "correctAnswer": 2,
+    "rationale": "A genogram is a visual tool that maps family structure, relationships, and patterns across at least three generations."
+  },
+  {
+    "id": 133,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "Family triangulation occurs when:",
+    "options": [
+      "Three family members live together",
+      "Tension between two people draws in a third person",
+      "Family members form geometric shapes",
+      "Three generations interact"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Triangulation occurs when tension or conflict between two family members draws in a third person, preventing direct resolution."
+  },
+  {
+    "id": 134,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "The Family APGAR assesses:",
+    "options": [
+      "Newborn health only",
+      "Family functionality in five domains",
+      "Genetic disorders",
+      "Financial status"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The Family APGAR assesses family functionality in five domains: Adaptation, Partnership, Growth, Affection, and Resolve."
+  },
+  {
+    "id": 135,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "Healthy family communication is characterized by:",
+    "options": [
+      "Avoiding all conflict",
+      "One person making all decisions",
+      "Open, honest, and direct expression",
+      "Keeping secrets from each other"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Healthy family communication involves open, honest, and direct expression of thoughts and feelings among family members."
+  },
+  {
+    "id": 136,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "Family psychoeducation is most effective for:",
+    "options": [
+      "Families without mental illness",
+      "Individual therapy only",
+      "Families dealing with serious mental illness",
+      "Short-term problems only"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Family psychoeducation has strong evidence for effectiveness with families dealing with serious mental illnesses like schizophrenia and bipolar disorder."
+  },
+  {
+    "id": 137,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "An ecomap shows:",
+    "options": [
+      "Environmental pollution",
+      "Family connections to external resources",
+      "Economic status only",
+      "Educational achievements"
+    ],
+    "correctAnswer": 1,
+    "rationale": "An ecomap visually displays the family's connections and relationships with external resources and support systems in the community."
+  },
+  {
+    "id": 138,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "Dysfunctional family boundaries are characterized by:",
+    "options": [
+      "Appropriate privacy and closeness",
+      "Clear role definitions",
+      "Enmeshment or disengagement",
+      "Healthy independence"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Dysfunctional boundaries involve either enmeshment (overly close, no privacy) or disengagement (overly distant, no emotional connection)."
+  },
+  {
+    "id": 139,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "The Double ABCX model of family stress includes:",
+    "options": [
+      "Only the initial stressor",
+      "Stressor, resources, perception, and outcome",
+      "Individual responses only",
+      "Financial factors only"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The Double ABCX model includes the stressor event (A), family resources (B), family's perception (C), and the crisis or adaptation outcome (X)."
+  },
+  {
+    "id": 140,
+    "moduleId": 14,
+    "type": "multiple-choice",
+    "question": "When working with families in crisis, the nurse's priority is:",
+    "options": [
+      "Assigning blame",
+      "Ensuring immediate safety and stabilization",
+      "Gathering detailed family history",
+      "Making long-term treatment plans"
+    ],
+    "correctAnswer": 1,
+    "rationale": "During family crisis intervention, the priority is ensuring immediate safety and stabilization before addressing underlying issues or long-term planning."
+  }
+]
