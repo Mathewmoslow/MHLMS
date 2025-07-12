@@ -1,0 +1,142 @@
+[
+  {
+    "id": 61,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "Which symptom is considered a positive symptom of schizophrenia?",
+    "options": [
+      "Avolition",
+      "Alogia",
+      "Hallucinations",
+      "Flat affect"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Positive symptoms are additions to normal experience. Hallucinations are positive symptoms, while avolition, alogia, and flat affect are negative symptoms."
+  },
+  {
+    "id": 62,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "The most common type of hallucination in schizophrenia is:",
+    "options": [
+      "Visual",
+      "Auditory",
+      "Tactile",
+      "Olfactory"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Auditory hallucinations, particularly hearing voices, are the most common type of hallucination in schizophrenia."
+  },
+  {
+    "id": 63,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "When a patient reports hearing voices that tell them to harm someone, this is called:",
+    "options": [
+      "Auditory hallucination",
+      "Command hallucination",
+      "Delusion of persecution",
+      "Thought insertion"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Command hallucinations are voices that tell the person to perform specific acts, which can be dangerous if they involve self-harm or violence."
+  },
+  {
+    "id": 64,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "Which response is most therapeutic when a patient describes their delusions?",
+    "options": [
+      "That's not real, you're imagining it",
+      "I don't share that belief, but I can see it's distressing to you",
+      "Tell me more about these thoughts",
+      "Everyone has strange thoughts sometimes"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The nurse should neither agree with nor challenge delusions directly, but acknowledge the patient's experience while stating their own reality."
+  },
+  {
+    "id": 65,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "Tardive dyskinesia is characterized by:",
+    "options": [
+      "Muscle rigidity and tremor",
+      "Involuntary movements of face and extremities",
+      "Restlessness and need to move",
+      "Sudden muscle contractions"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Tardive dyskinesia involves involuntary, repetitive movements particularly of the face, tongue, and extremities, and may be irreversible."
+  },
+  {
+    "id": 66,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "Which medication is used to treat extrapyramidal side effects?",
+    "options": [
+      "Haloperidol",
+      "Benztropine",
+      "Lithium",
+      "Sertraline"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Benztropine is an anticholinergic medication used to treat extrapyramidal side effects caused by antipsychotic medications."
+  },
+  {
+    "id": 67,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "Negative symptoms of schizophrenia include:",
+    "options": [
+      "Hallucinations and delusions",
+      "Avolition and alogia",
+      "Agitation and hostility",
+      "Disorganized speech"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Negative symptoms represent a loss or reduction of normal functions, including avolition (lack of motivation) and alogia (reduced speech)."
+  },
+  {
+    "id": 68,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "The primary advantage of atypical antipsychotics is:",
+    "options": [
+      "Lower cost",
+      "Fewer extrapyramidal side effects",
+      "Immediate onset of action",
+      "No side effects"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Atypical antipsychotics have fewer extrapyramidal side effects compared to typical antipsychotics, though they have other side effect risks."
+  },
+  {
+    "id": 69,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "What is the typical age of onset for schizophrenia?",
+    "options": [
+      "Childhood (5-12 years)",
+      "Adolescence to early adulthood (16-25 years)",
+      "Middle age (40-50 years)",
+      "Elderly (over 65 years)"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Schizophrenia typically has its onset in late adolescence to early adulthood, with men often developing symptoms earlier than women."
+  },
+  {
+    "id": 70,
+    "moduleId": 7,
+    "type": "multiple-choice",
+    "question": "When communicating with a patient experiencing delusions, the nurse should:",
+    "options": [
+      "Argue with the patient's false beliefs",
+      "Agree with the delusions to build rapport",
+      "Focus on the patient's feelings rather than the content",
+      "Ignore the patient when they discuss delusions"
+    ],
+    "correctAnswer": 2,
+    "rationale": "The nurse should focus on the underlying feelings rather than the delusional content, providing support without reinforcing the delusion."
+  }
+]

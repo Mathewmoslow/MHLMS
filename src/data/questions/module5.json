@@ -1,0 +1,142 @@
+[
+  {
+    "id": 41,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "According to Peplau's theory, the nurse serves in multiple roles. Which role involves helping the patient understand their experience?",
+    "options": [
+      "Stranger",
+      "Resource person",
+      "Counselor",
+      "Technical expert"
+    ],
+    "correctAnswer": 2,
+    "rationale": "In the counselor role, the nurse helps the patient understand and cope with their experiences through therapeutic communication."
+  },
+  {
+    "id": 42,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "The basic principle of cognitive-behavioral therapy is:",
+    "options": [
+      "Unconscious conflicts cause symptoms",
+      "Thoughts affect feelings and behaviors",
+      "Behavior is learned through reinforcement",
+      "Self-actualization is the goal"
+    ],
+    "correctAnswer": 1,
+    "rationale": "CBT is based on the principle that thoughts, feelings, and behaviors are interconnected, and changing thoughts can change feelings and behaviors."
+  },
+  {
+    "id": 43,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "Which therapeutic approach emphasizes unconditional positive regard?",
+    "options": [
+      "Psychoanalytic therapy",
+      "Behavioral therapy",
+      "Humanistic therapy",
+      "Cognitive therapy"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Humanistic therapy, developed by Carl Rogers, emphasizes unconditional positive regard, empathy, and genuineness."
+  },
+  {
+    "id": 44,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "In milieu therapy, the therapeutic environment should provide:",
+    "options": [
+      "Complete freedom with no structure",
+      "Rigid rules and strict control",
+      "Democratic participation and clear expectations",
+      "Isolation from other patients"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Milieu therapy creates a therapeutic environment with democratic participation, clear expectations, and opportunities for learning and growth."
+  },
+  {
+    "id": 45,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "Which defense mechanism involves unconsciously taking on characteristics of another person?",
+    "options": [
+      "Projection",
+      "Displacement",
+      "Identification",
+      "Rationalization"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Identification involves unconsciously taking on the characteristics, behaviors, or attitudes of another person."
+  },
+  {
+    "id": 46,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "Systematic desensitization is based on principles of:",
+    "options": [
+      "Classical conditioning",
+      "Operant conditioning",
+      "Cognitive restructuring",
+      "Psychodynamic theory"
+    ],
+    "correctAnswer": 0,
+    "rationale": "Systematic desensitization uses classical conditioning principles to gradually reduce anxiety responses to feared stimuli."
+  },
+  {
+    "id": 47,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "The defense mechanism of projection involves:",
+    "options": [
+      "Denying reality",
+      "Attributing one's own feelings to others",
+      "Reverting to earlier behaviors",
+      "Creating logical explanations"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Projection involves attributing one's own unacceptable thoughts, feelings, or impulses to another person."
+  },
+  {
+    "id": 48,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "In behavioral therapy, positive reinforcement:",
+    "options": [
+      "Decreases the likelihood of a behavior",
+      "Increases the likelihood of a behavior",
+      "Has no effect on behavior",
+      "Eliminates all behaviors"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Positive reinforcement increases the likelihood that a behavior will occur again by providing a pleasant consequence."
+  },
+  {
+    "id": 49,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "Which statement best describes milieu therapy?",
+    "options": [
+      "Individual therapy in a private setting",
+      "Medication management only",
+      "Therapeutic use of the environment",
+      "Family therapy sessions"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Milieu therapy involves the therapeutic use of the environment to promote healing, growth, and positive behavioral change."
+  },
+  {
+    "id": 50,
+    "moduleId": 5,
+    "type": "multiple-choice",
+    "question": "The cognitive distortion 'all-or-nothing thinking' involves:",
+    "options": [
+      "Seeing situations in extremes",
+      "Predicting the worst outcome",
+      "Blaming oneself for everything",
+      "Reading others' minds"
+    ],
+    "correctAnswer": 0,
+    "rationale": "All-or-nothing thinking is a cognitive distortion where situations are viewed in absolute terms without recognizing middle ground."
+  }
+]

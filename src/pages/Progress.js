@@ -1,7 +1,8 @@
 // src/pages/Progress.js
 import React from 'react';
 import { useProgress } from '../context/ProgressContext';
-import { modules } from '../data/modules';
+import * as modulesData from '../data/modules';
+const modules = modulesData.modules;
 import { CheckCircle, Circle, Trophy, BookOpen } from 'lucide-react';
 
 function Progress() {

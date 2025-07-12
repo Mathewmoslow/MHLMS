@@ -1,0 +1,142 @@
+[
+  {
+    "id": 121,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Mandatory reporting of suspected child abuse is required:",
+    "options": [
+      "Only by physicians",
+      "Only by social workers",
+      "By all healthcare professionals",
+      "Only when there is proof"
+    ],
+    "correctAnswer": 2,
+    "rationale": "All healthcare professionals are mandated reporters and must report suspected child abuse, even without definitive proof."
+  },
+  {
+    "id": 122,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Which finding is most suspicious for physical abuse in a child?",
+    "options": [
+      "Bruises on shins and knees",
+      "Bruises in various stages of healing on the torso",
+      "A single bruise on the forehead",
+      "Scrapes on hands and arms"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Bruises in various stages of healing, especially on protected areas like the torso, are highly suspicious for abuse rather than accidental injury."
+  },
+  {
+    "id": 123,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "The cycle of violence in intimate partner violence includes:",
+    "options": [
+      "Only the violent episode",
+      "Tension building, acute violence, and honeymoon phases",
+      "Constant high-level violence",
+      "Random unpredictable events"
+    ],
+    "correctAnswer": 1,
+    "rationale": "The cycle of violence includes tension building, acute violence episode, and honeymoon/reconciliation phases that repeat over time."
+  },
+  {
+    "id": 124,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "When screening for intimate partner violence, the nurse should:",
+    "options": [
+      "Ask in front of the partner",
+      "Screen in a private setting",
+      "Only ask if injuries are visible",
+      "Avoid the topic completely"
+    ],
+    "correctAnswer": 1,
+    "rationale": "IPV screening must be done in private to ensure patient safety and encourage honest disclosure."
+  },
+  {
+    "id": 125,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Elder abuse is most commonly perpetrated by:",
+    "options": [
+      "Strangers",
+      "Healthcare workers",
+      "Family members or caregivers",
+      "Neighbors"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Elder abuse is most commonly perpetrated by family members or caregivers who have access and opportunity."
+  },
+  {
+    "id": 126,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Financial abuse of elders includes:",
+    "options": [
+      "Providing financial support",
+      "Helping with bill paying",
+      "Stealing money or forging signatures",
+      "Setting up automatic payments"
+    ],
+    "correctAnswer": 2,
+    "rationale": "Financial abuse includes stealing money, forging signatures, identity theft, and other illegal or improper use of an elder's funds or property."
+  },
+  {
+    "id": 127,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Which response is most therapeutic for an abuse survivor?",
+    "options": [
+      "Why didn't you leave sooner?",
+      "I believe you and it's not your fault",
+      "You must have done something to provoke it",
+      "Just forget about it and move on"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Validating the survivor's experience by believing them and emphasizing that the abuse is not their fault is most therapeutic."
+  },
+  {
+    "id": 128,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Safety planning for domestic violence survivors should include:",
+    "options": [
+      "Confronting the abuser",
+      "Identifying safe places to go and important documents to gather",
+      "Staying in the relationship",
+      "Ignoring warning signs"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Safety planning includes identifying safe places, gathering important documents, having emergency funds, and planning escape routes."
+  },
+  {
+    "id": 129,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "Emotional abuse is characterized by:",
+    "options": [
+      "Physical hitting only",
+      "Pattern of behaviors that damage emotional development",
+      "Accidental harsh words",
+      "Appropriate discipline"
+    ],
+    "correctAnswer": 1,
+    "rationale": "Emotional abuse involves a pattern of behaviors that damage emotional development or self-worth through threats, humiliation, or isolation."
+  },
+  {
+    "id": 130,
+    "moduleId": 13,
+    "type": "multiple-choice",
+    "question": "The primary goal of abuse intervention is:",
+    "options": [
+      "Punishing the abuser",
+      "Keeping families together at all costs",
+      "Ensuring victim safety",
+      "Gathering evidence for court"
+    ],
+    "correctAnswer": 2,
+    "rationale": "The primary goal of abuse intervention is ensuring the safety and protection of the victim, with all other considerations secondary."
+  }
+]

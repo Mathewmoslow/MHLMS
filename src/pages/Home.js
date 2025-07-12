@@ -2,7 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useProgress } from '../context/ProgressContext';
-import { modules } from '../data/modules';
+import * as modulesData from '../data/modules';
+const modules = modulesData.modules;
 import { CheckCircle, Lock, BookOpen, Award } from 'lucide-react';
 
 function Home() {

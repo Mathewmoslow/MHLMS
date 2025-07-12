@@ -2,7 +2,8 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useProgress } from '../context/ProgressContext';
-import { modules } from '../data/modules';
+import * as modulesData from '../data/modules';
+const modules = modulesData.modules;
 import { ArrowLeft, ArrowRight, FileText } from 'lucide-react';
 
 function ModulePage() {
